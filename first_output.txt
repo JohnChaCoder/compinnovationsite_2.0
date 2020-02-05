@@ -1,0 +1,51 @@
+
+150044727@WEB003793 MINGW64 /h/compinnovationweb
+$ echo "# computing-innovation-website-JohnChaCoder" >> README.md
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/CartWebApp/computing-innovation-website-JohnChaCoder.git
+git push -u origin master
+150044727@WEB003793 MINGW64 /h/compinnovationweb
+$ git init
+
+Initialized empty Git repository in H:/compinnovationweb/.git/
+
+150044727@WEB003793 MINGW64 /h/compinnovationweb (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory
+
+150044727@WEB003793 MINGW64 /h/compinnovationweb (master)
+$ git commit -m "first commit"
+[master (root-commit) 5b76057] first commit
+ Committer: CHA JOHNNY <150044727@cart.ads>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+150044727@WEB003793 MINGW64 /h/compinnovationweb (master)
+$ git remote add origin https://github.com/CartWebApp/computing-innovation-website-JohnChaCoder.git
+
+150044727@WEB003793 MINGW64 /h/compinnovationweb (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 260 bytes | 32.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CartWebApp/computing-innovation-website-JohnChaCoder.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+150044727@WEB003793 MINGW64 /h/compinnovationweb (master)
+$
