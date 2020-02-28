@@ -1,6 +1,6 @@
   body {
       background-color: rgb(190, 255, 190);
-      background-image: url(img/inside-lamp-transparent.png);
+      background-image: url(bg/inside-lamp-transparent.png);
       background-attachment: fixed;   /* Locks the background in the same place */
       background-position: center;    /* Align the background in the center */
     }
