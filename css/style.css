@@ -1,0 +1,184 @@
+  body {
+      background-color: rgb(190, 255, 190);
+      background-image: url(img/inside-lamp-transparent.png);
+      background-attachment: fixed;   /* Locks the background in the same place */
+      background-position: center;    /* Align the background in the center */
+    }
+
+  .displayRows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  p {
+    font-family: Helvetica;
+  }
+  h1 {
+    font-family: Helvetica;
+    color: white;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.500);
+  }
+  h2 {
+    font-family: Helvetica;
+  }
+  h3 {
+    font-family: Helvetica;
+  }
+  h4 {
+    font-family: Helvetica;
+  }
+  h5 {
+    font-family: Helvetica;
+  }
+  h6 {
+    font-family: Helvetica;
+  }
+  .story {
+    font-family: Helvetica;
+  }
+  .buttons {
+    font-family: Helvetica;
+  }
+  .intro {
+    font-family: Helvetica;
+  }
+  li {
+    font-family: Helvetica;
+  }
+  table, th, td {
+    border: 1px solid black;
+    font-family: Helvetica;
+  }
+  .navbar {
+    color: white;
+    text-shadow: 1.5px 1.5px green;
+    font-style: italic;
+    font-family: Helvetica;
+    border-radius: 6px;
+    border-style: outset;
+    margin: -1px;
+    border-top-color: rgb(149, 255, 149);
+    border-left-color: rgb(68, 185, 68);
+    border-bottom-color: rgb(9, 223, 9);
+    border-right-color: rgb(0, 189, 0);
+    background-color: rgb(111, 228, 117);
+    text-align: center;
+    box-shadow: 4px 4px rgba(0, 68, 0, 0.322);
+  }
+  .citation {
+    margin-top: 0px;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Tahoma;
+  }
+  .copyright {
+    color: black;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.200);
+    font-family: Tahoma;
+    font-weight: bold;
+    margin-bottom: -22px;
+    font-size: 11px;
+  }
+  img {
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.300);
+  }
+  .imgFront {
+    border-color: black;
+    border-style: solid;
+    width: 32.5%;
+  }
+  .introduction {
+    border-color: black;
+    border-style: solid;
+    width: 50%;
+  }
+  .weChoseThis {
+    border-color: black;
+    border-style: solid;
+    width: 50%;
+  }
+
+  a {
+    text-decoration-line: none;   /* hides underlines from links */
+  }
+
+  a:link {
+    color: white;
+    text-shadow: 1px 1px green;
+  }
+
+  a:hover {
+      color: rgb(0, 255, 0);
+      font-weight: bolder;
+      text-shadow: 1px 1px darkgreen;
+  }
+
+  a:active {
+      color: rgba(0, 0, 0, 0);
+      text-shadow: 2px 2px black;
+  }
+
+  /* Tablet-friendly */
+  @media only screen and (max-width: 1280px) and (min-width: 800px) {
+
+    body {
+      background-color: aquamarine;  
+    }
+
+    .displayRows {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      /* justify-content: space-around; */
+    }
+
+    .imgFront {
+      border-color: black;
+      border-style: solid;
+      width: 32.5%;
+    }
+    .introduction {
+      border-color: black;
+      border-style: solid;
+      width: 99.50%;
+    }
+    .weChoseThis {
+      border-color: black;
+      border-style: solid;
+      width: 99.50%;
+    }
+
+  }
+
+  /* Mobile-friendly */
+  @media only screen and (max-width: 800px) {
+
+    body {
+      background-color: aquamarine;  
+    }
+
+    .displayRows {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .imgFront {
+      border-color: black;
+      border-style: solid;
+      width: 82.5%;
+    }
+    .introduction {
+      border-color: black;
+      border-style: solid;
+      width: 99.50%;
+    }
+    .weChoseThis {
+      border-color: black;
+      border-style: solid;
+      width: 99.50%;
+    }
+
+  }
