@@ -180,6 +180,23 @@
       color: rgb(0, 194, 6);
   }
 
+  a.imgSource:link {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.500);
+  }
+  a.imgSource:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+  }
+  a.imgSource:active {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 1px 1px rgba(0, 0, 0, 1);
+  }
+  a.imgSource:visited {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.500);
+  }
+
   /* Tablet-friendly */
   @media only screen and (max-width: 1280px) and (min-width: 800px) {
 
